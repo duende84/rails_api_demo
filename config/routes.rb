@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   scope module: :api, defaults: { format: :json }, path: 'api' do
     scope module: :v1, path: 'v1' do
       devise_for :users, skip: [:sessions, :password]
+      resources :transactions, only: [:index]
     end
   end
 end
