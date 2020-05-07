@@ -29,7 +29,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'devise', '~> 4.7', '>= 4.7.1'
 
 # Authorization
-gem 'doorkeeper', '~> 5.2', '>= 5.2.1'
+gem 'doorkeeper', '~> 5.2'
 
 # Use cases - Clean Architecture
 gem 'interactor-rails', '~> 2.2', '>= 2.2.1'
